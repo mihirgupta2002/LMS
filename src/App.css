@@ -1,6 +1,12 @@
 .App {
   text-align: center;
 }
+body{
+  margin: 10px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +41,70 @@
   to {
     transform: rotate(360deg);
   }
+}
+.div_main {
+  background-color: white; 
+  margin-top: 20px;
+  margin-bottom: 50px;
+ 
+  font-size: 20px; 
+  border: 3px solid black;
+ 
+ 
+    display: flex;
+   
+    flex-wrap: nowrap;
+    height: 150px;
+    align-items: center;
+    
+}
+.div_second{
+  background-color: white; 
+  margin-top: 50px;
+  margin-bottom: 50px;
+ 
+  font-size: 20px; 
+  border: 3px solid black;
+ 
+ 
+    display: flex;
+   
+    /* flex-wrap: nowrap; */
+    height: 150px;
+    
+    flex-wrap: nowrap;
+    flex-direction: row;
+    /* justify-content: flex-end; */
+    
+
+}
+.center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid black;
+  padding: 10px;
+}
+.img1{
+  height: 100px;
+
+  object-fit: contain;
+}
+.div_thrid{
+  justify-content: flex-end;
+}
+.active{
+  color: red;
+}
+.first_div_card{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 350px;
+  flex-wrap: wrap;
+}
+.Margin{
+  margin: 50px;
+  margin-top: 20px;
+  
+  
+
 }
