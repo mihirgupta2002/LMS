@@ -44,6 +44,12 @@ import MainEdit from '../pages/MainEdit';
 import MainEditMember from '../pages/MaineditMember';
 import MainEditAuthor from '../pages/MainEditAuthor';
 
+import UserCard from '../pages/userCard';
+import Selfcard from '../pages/newCard.js/Selfcard';
+import LibraryCard from '../pages/librarycard';
+import Userrequest from '../pages/userRequest';
+import Mainpage from '../pages/mainpage';
+
 
 
   function ButtonAppBar() {
@@ -209,7 +215,7 @@ import MainEditAuthor from '../pages/MainEditAuthor';
       </AppBar>
     </Box>
                 <Routes>
-                    <Route path='/book' exact element={<BookTableCE/>}/>
+                    <Route path='/book' exact element={<Mainpage/>}/>
                     
                     <Route path='*' element={<Navigate to="/book" replace/>}/>
                     <Route path='/author/:id' exact element={<Author/>}/> 
@@ -226,7 +232,13 @@ import MainEditAuthor from '../pages/MainEditAuthor';
                     <Route path='/MainEditMember/:id' exact element={<MainEditMember/>}/>
                     <Route path='/MainEditAuthor/:id' exact element={<MainEditAuthor/>}/>
                     <Route path='/ViewRequest' exact element={<ViewRequest/>}/>
+
+                    <Route path='/cardBook' exact element={<LibraryCard/>}/>
+                    <Route path='/userCard/:id' exact element={<UserCard/>}/>
+                    <Route path='/userrequest/:id' exact element={<Userrequest/>}/>
+                    <Route path='/mainpage' exact element={<Mainpage/>}/>
                   
+
                 </Routes>
                 <SignUp open={showSignupPage} handleClose={CloseSignup} handleSubmit={SubmitSignup}/> 
                <LoginDialog open={showLoginPage} handleClose={CloseLogin} handleSubmit={SubmitLogin}/> 

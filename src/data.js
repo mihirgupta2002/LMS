@@ -4,19 +4,36 @@ import author1 from "./image_author/author1.jpg"
 export const BookRequest=[];
 export  const BOOKINFO=[
     {
+       
     "title":"I am the MIND",
     "quantity":2,
-    "isbn":1,
+    "isbn":12345678,
     "image":"https://m.media-amazon.com/images/I/71SZSFMH3hL._AC_UF1000,1000_QL80_.jpg",
     "Status":"Not Issued",
-    "description":"Description of the book I am the Mind . ",
+    "description":"Description of the boolajkjfalfajfak. ",
     "authorName":"Meera Gupta",
-    "authorId":1,
+  
     "AuthorImage":"https://media.istockphoto.com/id/1326638534/photo/beautiful-african-american-woman-holding-red-book-looking-at-window-and-smiling-university.jpg?s=612x612&w=0&k=20&c=dOopOrEfKZuzBW3--hW-e0DXhmaQBc5LSoZTOuRmqnc=",
-    "AuthorDescription":"AUTHOR OF I am the mind first"
+    
     
     },
     {
+       
+        "title":"I am the MIND",
+        "quantity":2,
+        "isbn":12345678,
+        "image":"https://m.media-amazon.com/images/I/71SZSFMH3hL._AC_UF1000,1000_QL80_.jpg",
+        "Status":"Not Issued",
+        "description":"Description of the book I  ",
+        "authorName":"Meera Gupta",
+        
+        "AuthorImage":"https://media.istockphoto.com/id/1326638534/photo/beautiful-african-american-woman-holding-red-book-looking-at-window-and-smiling-university.jpg?s=612x612&w=0&k=20&c=dOopOrEfKZuzBW3--hW-e0DXhmaQBc5LSoZTOuRmqnc=",
+       
+        
+        },
+    
+    {
+    
         "title":"Percy Jackson",
         "quantity":1,
         "isbn":2,
@@ -24,9 +41,8 @@ export  const BOOKINFO=[
         "Status":"Not Issued",
         "description":"Second book description",
         "authorName":"Mihir Gupta",
-        "authorId":2,
-        "AuthorImage":"https://st4.depositphotos.com/10208782/25036/i/450/depositphotos_250363866-stock-photo-woman-using-laptop-computer.jpg",
-        "AuthorDescription":"AUTHOR OF PERCY JACKSON second"
+        
+        "AuthorImage":"https://st4.depositphotos.com/10208782/25036/i/450/depositphotos_250363866-stock-photo-woman-using-laptop-computer.jpg"
     }
    
 ];

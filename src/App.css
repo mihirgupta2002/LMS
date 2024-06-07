@@ -108,3 +108,93 @@ body{
   
 
 }
+
+
+.library-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Adjust the gap between cards */
+}
+
+.library-card {
+  border: 1px solid #ccc;
+  color: azure;
+  border-radius: 20px;
+  padding: 10px;
+  position: relative; /* Set position to relative */
+  margin: 10px;
+  width: 300px;
+ 
+  margin-bottom: 20px;
+  display: flex;
+  background-color: #00b4d8  ;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Adding a simple box shadow for 3D effect */
+}
+.library-card:nth-child(3n+1) {
+  clear: left;
+}
+
+.book-image {
+  width: 115px;
+  height: 175px;
+  margin-right: 10px;
+  
+}
+.bookContainer{
+  position: relative;
+  width: 120px;
+  height: 175px;
+
+
+}
+.circle-image {
+  position: absolute;
+  bottom: -15px; /* Adjust as needed */
+  right: 2px; /* Adjust as needed */
+  width: 50px; /* Adjust as needed */
+  height: 50px; /* Adjust as needed */
+  border-radius: 50%; /* To make it a circle */
+  border: 5px solid #555;
+}
+
+.card-content {
+  flex-grow: 1;
+}
+
+.book-title {
+  color: aliceblue;
+  font-size: larger;
+  text-decoration: underline;
+}
+
+.book-description {
+  margin-bottom: 5px;
+  color: #282c34;
+}
+
+.view-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  
+ 
+  float: right;
+  position: absolute; /* Set position to absolute */
+  bottom: 15px; /* Set distance from the bottom */
+  right: 15px; /* Set distance from the right */
+}
+
+.view-button:hover {
+  background-color: #0056b3;
+}
+.Library{
+  border: 1px solid #ccc;
+  color: azure;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: #caf0f8;
+  max-width: max-content;
+}

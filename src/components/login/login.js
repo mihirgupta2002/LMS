@@ -56,7 +56,7 @@ const  LoginDialog=({ open,handleClose,handleSubmit}) => {
         // }
        
         // history(`/user${id}`)
-        history(`/user/${found}`)
+        history(`/userCard/${found}`)
     }
     else{
       history( "/book");

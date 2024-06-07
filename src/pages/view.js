@@ -16,7 +16,7 @@ import { useNavigate } from "react-router-dom";
 import author1 from "../image_author/author1.jpg"
 import AuthorList from "./AuthorList";
 import { GlobalContext } from "../components/GlobalContext";
-export default function View(props) {
+export default function View() {
     const history = useNavigate();
     const {id}=useParams();
     const {BOOKInfo,AUTHORInfo,}=useContext(GlobalContext)
@@ -30,6 +30,7 @@ export default function View(props) {
 
        
     }
+    console.log(BOOKInfo[id].authorName);
     const index= AUTHORInfo.findIndex((index)=>(BOOKInfo[id].authorName===index.name));
     console.log(index);
     

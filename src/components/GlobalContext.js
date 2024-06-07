@@ -87,7 +87,9 @@ const editMember=(member,id)=>{
 const addAuthor=(author)=>{
   
   AUTHORInfo.push(author);
-console.log(AUTHORInfo)
+//   const val= BOOKInfo.map((book)=>(author.name=book.name))
+//   // BOOKInfo[val].authorImage= author.image;
+// console.log(AUTHORInfo)
 }
 const deleteAuthor=(index)=>{
   AUTHORInfo.splice(index,1)
